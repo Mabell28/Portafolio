@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: Lato-Light;
+	src: url(../Fuente/fonts/Lato-Light.ttf);
+}
+
+@font-face {
+	font-family: Lato-Bold;
+	src: url(../Fuente/fonts/Lato-Bold.ttf);
+}
+.navbar{
+	background-color: coral;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	margin: 0;
+	border: 0;
+	font-family: "Lato-Light";
+}
+
+
+li a{
+			font-size: 21px;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: white;
+}
+
+.navbar-default .navbar-brand{
+	color: white;
+	font-size: 28px;
+}
+
+/* 
+.container.portafolio{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+*/
+/*
+.fila-portafolio{
+	margin: 0;
+}*/
+.texto-home{
+	/*width: 46%;*/
+/*  position: absolute;
+  top: 15%;
+  left: 27%;*/
+  color: white;
+  margin: 0;
+}
+
+.mabell{
+  	font-size: 55px;
+  	color: white;
+  	text-align: center;
+  	font-family: "Lato-Bold";
+}
+
+.desarrolladora-web{
+	color: white;
+	font-family: "Lato-Light";
+	font-size: 35px;
+	/*padding-bottom: 20%;*/
+}
+
+ol{
+	list-style: none;
+}
+section{
+	width: 100%;
+	min-height: 100%;
+}
+.fondo-home{
+	background-image: url(../img/fh.jpg);
+	background-attachment: fixed;
+	width: 100%;
+	height: 799px;
+}
+
+.icon-home{
+	text-align: center;
+	padding: 5%;
+}
+
+.frase{
+	font-family: "Lato-Light";
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.nombre{
+	text-align: center;
+}
+
+
+.texto{
+	font-family: "Lato-Bold";
+}
+.foto-sobre-mi{
+	text-align: center;
+	width: 100%;
+
+	img{
+		height: 350px;
+		width: 350px;
+		border-radius: 50%;
+		padding: 4%;
+	}
+}
+
+.texto-sobre-mi{
+	font-family: "Lato-Light";
+	text-align: center;
+	font-size: 19px;
+  width: 56%;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+.iconos{
+	text-align: center;
+	padding: 2%;
+
+	img{
+		width: 25%;
+	}
+}
+
+.carrusel-trabajos{
+	background-color: #34495e;
+	padding: 4%;
+}
+
+.imagen-carrusel{
+	 width: 50%;
+  text-align: center;
+
+  img{
+  	width: 100%;
+  }
+}
+
+.texto-carrusel{
+  padding: 9%;
+
+}
+
+.box_trabajo{
+	    background-color: coral;
+    padding: 1px;
+    width: 40%;
+    margin: 0 auto;
+    h3{
+    	    font-size: 17px;
+    	    
+    	    a{
+    	    	color: white;
+    	    	text-decoration: none;
+    	    	font-family: "Lato-Bold";
+    	    }	
+    }
+}
+.titulo-trabajo{
+	    font-size: 33px;
+    margin-bottom: 40px;
+}
+.texto-contacto{
+	background-color: white;
+	opacity: 0.8;
+}
+.red-social{   
+/*	width: 45%;
+	margin: 10% auto;*/
+ img{
+	/*width: 100%;*/
+}
+}
+.carousel-control {
+	display: none;
+}
+
+.iconos-sociales {
+	list-style: none;
+	display: inline-block;
+	padding-top: 15%;
+	li {
+		float: left;
+		a img {
+			width: 77px;
+		}
+	}
+}
+
+.contacto{
+	background-image: url(../img/fondo-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 1.2;
+}
+
+
+@media (max-width: $screen-phone){
+
+ 	.fondo-home{
+ 		height: 450px;
+ 	}
+
+/* 	.texto-home{
+ 		width: 65%;
+
+ 		.mabell{
+ 			font-size: 30px;
+ 			text-align: center;
+ 		}
+ 	}
+
+ 	.desarrolladora-web{
+ 		font-size: 33px;
+ 		padding-bottom: 8%;
+ 	}
+
+ 	.frase{
+ 		font-size: 35px;
+ 	}*/
+
+
+}
+
