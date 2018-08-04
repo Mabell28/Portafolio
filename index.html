@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 	</head>
 	<body>
 			<nav class="navbar navbar-default"><!--INICIO DE MENU-->
@@ -17,7 +18,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">Mabell</a>
+						<a class="navbar-brand" href="#mabell">Mabell</a>
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
@@ -35,36 +36,8 @@
 						<div class="col-sm-4 ptp-14 text-center">
 							<h1 class="mabell">Mabell Huayanay</h1>
 							<h2 class="desarrolladora-web">Desarrolladora Web</h2>
-							<div id="myCarousel" class="carousel slide" data-ride="carousel">
-							  <!-- Indicators -->
-							  <ol>
-							    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-							    <li data-target="#myCarousel" data-slide-to="1"></li>
-							    <li data-target="#myCarousel" data-slide-to="2"></li>
-							    <li data-target="#myCarousel" data-slide-to="3"></li>
-							  </ol>
-
-							  <!-- Wrapper for slides -->
-							  <div class="carousel-inner" role="listbox">
-							    <div class="item active">
-							      <h2 class="frase">1. Tú lo piensas</h2>
-							    </div>
-
-							    <div class="item">
-							      <h2 class="frase">2. Yo lo construyo</h2>
-							    </div>
-							  </div>
-
-							  <!-- Left and right controls -->
-							  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-							    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-							    <span class="sr-only">Previous</span>
-							  </a>
-							  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-							    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-							    <span class="sr-only">Next</span>
-							  </a>
-							</div>		
+							<h3 class="text-color" id="t-1">Tú lo piensas</h3>	
+							<h3 class="text-color" id="t-2">Yo lo construyo</h3>	
 						</div>
 					</div>
 				</div><!-- FIN FONDO HOME -->
@@ -73,7 +46,7 @@
 				<div class="row fila-portafolio">
 					<div class="col-xs-12 col-sm-12 foto-sobre-mi">
 						<h1 class="text-center texto">Mabell Huayanay Taype</h1>
-						<img src="img/yo.jpg">
+						<img src="img/me.jpg">
 					</div>
 						<h2 class="text-center ptp-3 texto">Sobre mí</h2>
 						<p class="texto-sobre-mi">Hola, soy Mabell, tengo 24 años y soy Desarrolladora Web. Estuve en Laboratoria estudiando lenguajes de programación como HTML5, CSS3, Javascript y jQuery. Actualmente soy estudiante de la carrera de Ing. de Software en ISIL. Desarrollo y programo páginas web, me gustar estar en constante aprendizaje.</p>
@@ -178,22 +151,16 @@
 					</div>
 				</div>	
 			</section><!-- FIN CONTACTO -->
-	
-
-			
-
-			
-					
-
-
 
 		</div><!-- FIN CONTAINER -->
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
-		</script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js">
-    </script>
-    <script> <!--INICIO:Baje soft-->
+	</body>
+		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap/transition.js"></script>
+		<script type="text/javascript" src="js/efects.js"></script>
+    <script> 
 				$(function() {
 					  $('a[href*=#]:not([href=#])').click(function() {
 						if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -210,5 +177,5 @@
 					});
 	    </script><!--END:baje soft-->
 
-	</body>
+	
 </html>
